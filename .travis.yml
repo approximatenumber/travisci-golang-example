@@ -7,4 +7,5 @@ go:
  - tip
 
 script:
- - go test -v ./...
+ - go build rest-server.go
+ - go test -v ./
